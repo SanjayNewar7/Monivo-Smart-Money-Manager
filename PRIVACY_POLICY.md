@@ -80,8 +80,8 @@ Users are encouraged to review this page periodically for updates.
 
 If you have any questions regarding this Privacy Policy, you can contact us:
 
-**Developer:** Loopix Technologies  
-**Email:** support@loopixtech.com
+**Developer:** Sanjaya Rajbhandari 
+**Email:** sanjaynewar007@gmail.com
 
 ---
 
