@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817318719540",
+    "project_id": "monivo-smart-money-manager",
+    "storage_bucket": "monivo-smart-money-manager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817318719540:android:ee3bcf4c33ee1a674d9a61",
+        "android_client_info": {
+          "package_name": "com.sanjaya.monivo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl0fxt43hf9hXjoNh4mbjrzCcJ-CnDlzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

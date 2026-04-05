@@ -1,0 +1,80 @@
+name: bluewallet_np
+description: Secure expense tracking made simple with multi-account support
+publish_to: 'none'
+version: 1.0.0+8
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+
+  # Charts
+  fl_chart: ^0.69.2
+  device_info_plus: ^10.1.0
+
+  # Notifications
+  flutter_local_notifications: ^17.2.1
+  timezone: ^0.9.4
+  android_intent_plus: ^5.2.0
+
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+  #currency
+  tabler_icons: ^2.1.0
+
+  #filepermission
+  permission_handler: ^11.3.1
+
+  #GeminiAPI
+  google_generative_ai: ^0.4.6
+  http: ^1.2.0
+
+
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.3.3
+  image_picker: ^1.1.2
+  path_provider: ^2.1.5
+  provider: ^6.1.2
+
+  # Security
+  crypto: ^3.0.3
+
+  # PDF Generation and Viewing
+  pdf: ^3.10.7
+  printing: ^5.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+# App icon configuration - SIMPLE version without adaptive
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  # Main icon (used for fallback)
+  image_path: "assets/icons/monivoappicon_white.png"
+
+  # Adaptive icon
+  adaptive_icon_foreground: "assets/icons/foreground.png"
+  adaptive_icon_background: "#FFFFFF"
+
+  min_sdk_android: 21
+  remove_alpha_ios: true
