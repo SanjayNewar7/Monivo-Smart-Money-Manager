@@ -1,4 +1,4 @@
-# bluewallet
+# Monivo: Smart Money Manager
 
 A new Flutter project.
 
