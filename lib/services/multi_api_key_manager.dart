@@ -4,11 +4,11 @@ import 'dart:async';
 class APIKeyManager {
   // Your 5 API keys
   static final List<String> _apiKeys = [
-    'AIzaSyAk2WpnvAZVeZEIUuhgmA3XD_yCSkF5dvw', // Key 1 - Original
-    'AIzaSyCo1crRdQpBzaEdIUzOph0j49MIJC3N9b8', // Key 2 - Default Gemini
-    'AIzaSyA5_uYMz5QUFniismi47gyZI3dZfqko8DU', // Key 3 - Default Gemini
-    'AIzaSyCkrxxmNZ9RQ0mnV1bhPy3sVpnM9zbGELA', // Key 4 - Default Gemini
-    'AIzaSyBHYFzHZmdiJhg5Pi3USZrlDm216Y4LOew', // Key 5 - New Key
+    'API KEY 1', // Key 1 - Original
+    'API KEY 2', // Key 2 - Default Gemini
+    'API KEY 3', // Key 3 - Default Gemini
+    'API KEY 4', // Key 4 - Default Gemini
+    'API KEY 5', // Key 5 - New Key
   ];
 
   static int _currentKeyIndex = 0;
